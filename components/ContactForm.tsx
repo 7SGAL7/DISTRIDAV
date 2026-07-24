@@ -75,7 +75,7 @@ export default function ContactForm() {
 
         <textarea
           name="mensaje"
-          rows="7"
+          rows={7}
           placeholder="Cuéntanos cómo podemos ayudarte..."
           className="w-full bg-zinc-800 text-white border border-zinc-700 rounded-lg p-3 placeholder-zinc-500 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
           required
