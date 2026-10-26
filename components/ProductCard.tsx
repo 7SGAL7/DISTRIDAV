@@ -20,7 +20,7 @@ export default function ProductCard({
           src={product.image}
           alt={product.name}
           fill
-          className="object-cover"
+          className="object-cover aspect-3/2"
         />
       </div>
 
